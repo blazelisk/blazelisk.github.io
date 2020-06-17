@@ -1,6 +1,7 @@
 {
   "short_name": "React App",
-  "name": "Create React App Sample",
+  "name": "Benjamin Bui",
+  "homepage": "https://blazelisk.github.io/me",
   "icons": [
     {
       "src": "favicon.ico",
@@ -18,6 +19,13 @@
       "sizes": "512x512"
     }
   ],
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts eject"
+  },
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
