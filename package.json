@@ -1,6 +1,6 @@
 {
   "name": "personal.website",
-  "homepage": "https://blazelisk.github.io",
+  "homepage": "blazelisk.github.io",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
