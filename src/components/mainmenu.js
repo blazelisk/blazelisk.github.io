@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class MainMenu extends Component{
     render() {
       return (
-        <aside id="colorlib-aside" role="complementary" className="border js-fullheight" style={{height: '100%'}}>
+        <aside id="colorlib-aside" className="border js-fullheight" style={{height: '100%'}}>
           <div className="text-center">
             <div className="author-img" style={{backgroundImage: 'url(images/about.jpg)'}} />
             <h1 id="colorlib-logo"><a href="index.html">Benjamin Bui</a></h1>
@@ -25,9 +25,9 @@ export default class MainMenu extends Component{
           </nav>
           <div className="colorlib-footer" >
             <p><small>© {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
-                Copyright © 2020 All rights reserved | This layout was made with <i className="icon-heart" aria-hidden="true" /> by <a href="https://colorlib.com" target="_blank">Colorlib </a> 
+                Copyright © 2020 All rights reserved | This layout was made with <i className="icon-heart" aria-hidden="true" /> by <a href="https://colorlib.com" target="_blank" rel="noopener noreferrer">Colorlib </a> 
                 {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
-                | Website written in React and hosted on <a href="https://github.com/blazelisk/blazelisk.github.io" target="_blank">GitHub Pages</a>  </small></p>
+                | Website written in React and hosted on <a href="https://github.com/blazelisk/blazelisk.github.io" target="_blank" rel="noopener noreferrer" >GitHub Pages</a>  </small></p>
           </div>
         </aside>
       );
