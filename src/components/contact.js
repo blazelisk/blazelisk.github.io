@@ -19,15 +19,7 @@ export default class Contact extends Component {
                     <i className="icon-globe-outline" />
                   </div>
                   <div className="colorlib-text">
-                    <p><a href="#">info@domain.com</a></p>
-                  </div>
-                </div>
-                <div className="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-                  <div className="colorlib-icon">
-                    <i className="icon-map" />
-                  </div>
-                  <div className="colorlib-text">
-                    <p>198 West 21th Street, Suite 721 New York NY 10016</p>
+                    <p><a href="#">benjaminbui97@gmail.com</a></p>
                   </div>
                 </div>
                 <div className="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
@@ -35,25 +27,25 @@ export default class Contact extends Component {
                     <i className="icon-phone" />
                   </div>
                   <div className="colorlib-text">
-                    <p><a href="tel://">+123 456 7890</a></p>
+                    <p><a href="tel://">+1 (413)652-9201</a></p>
                   </div>
                 </div>
               </div>
               <div className="col-md-7 col-md-push-1">
                 <div className="row">
                   <div className="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
-                    <form action>
+                    <form action="https://formspree.io/xdowlwle" method="POST">
                       <div className="form-group">
-                        <input type="text" className="form-control" placeholder="Name" />
+                        <input type="text" name="name" className="form-control" placeholder="Name" />
                       </div>
                       <div className="form-group">
-                        <input type="text" className="form-control" placeholder="Email" />
+                        <input type="text" name="_replyto" className="form-control" placeholder="Email" />
                       </div>
                       <div className="form-group">
-                        <input type="text" className="form-control" placeholder="Subject" />
+                        <input type="text" name="_subject" className="form-control" placeholder="Subject" />
                       </div>
                       <div className="form-group">
-                        <textarea name id="message" cols={30} rows={7} className="form-control" placeholder="Message" defaultValue={""} />
+                        <textarea name id="message" name="message" cols={30} rows={7} className="form-control" placeholder="Message" defaultValue={""} />
                       </div>
                       <div className="form-group">
                         <input type="submit" className="btn btn-primary btn-send-message" defaultValue="Send Message" />

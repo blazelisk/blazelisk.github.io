@@ -29,21 +29,21 @@ class App extends Component {
             <div id="colorlib-education">
               <Education></Education>
             </div>
-            <div id="colorlib-services">
+            {/* <div id="colorlib-services">
               <Services></Services>
             </div>
             <div id="colorlib-skills">
               <Skills></Skills>
-            </div>
-            <div id="colorlib-experience">
+            </div>  */}
+              <div id="colorlib-experience">
               <Experience></Experience>
             </div>
-            <div id="colorlib-work">
+            {/* <div id="colorlib-work">
               <Work></Work>
-            </div>
-            <div id="colorlib-blog">
+	          </div> */}
+            {/* <div id="colorlib-blog">
               <Blog></Blog>
-            </div>
+            </div> */}
             <div id="colorlib-contact">
               <Contact></Contact>
             </div>
