@@ -19,7 +19,7 @@ export default class MainMenu extends Component{
                 <li><a href="#experience" data-nav-section="experience">Experience</a></li>
                 {/* //<li><a href="#" data-nav-section="work">Work</a></li>
                 //<li><a href="#" data-nav-section="blog">Blog</a></li> */}
-                <li><a href="#" data-nav-section="contact">Contact</a></li>
+                <li><a href="#contact" data-nav-section="contact">Contact</a></li>
               </ul>
             </div>
           </nav>

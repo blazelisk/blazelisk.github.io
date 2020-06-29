@@ -4,7 +4,7 @@ export default class Contact extends Component {
     render() {
       return (
   
-        <section className="colorlib-contact" data-section="contact">
+        <section className="colorlib-contact" data-section="contact" id="contact">
           <div className="colorlib-narrow-content">
             <div className="row">
               <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
@@ -27,7 +27,7 @@ export default class Contact extends Component {
                     <i className="icon-phone" />
                   </div>
                   <div className="colorlib-text">
-                    <p><a href="tel://">+1 (413)652-9201</a></p>
+                    <p><a href="tel://">+1 (413) 652-9201</a></p>
                   </div>
                 </div>
               </div>
